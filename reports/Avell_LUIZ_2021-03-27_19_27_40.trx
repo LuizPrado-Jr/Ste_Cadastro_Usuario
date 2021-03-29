@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="68d20844-8e99-4ef2-8c14-5411e0982982" name="Avell@LUIZ 2021-03-27 19:27:40" runUser="LUIZ\Avell" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2021-03-27T19:27:40.4653674-03:00" queuing="2021-03-27T19:27:40.4653689-03:00" start="2021-03-27T19:27:34.8166089-03:00" finish="2021-03-27T19:28:11.7009490-03:00" />
+  <TestSettings name="default" id="f3b92999-2b9a-4695-937a-ed9f7848775d">
+    <Deployment runDeploymentRoot="Avell_LUIZ_2021-03-27_19_27_40" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="6655ab47-cd87-428d-b6e2-682d3c636649" testId="c803363f-d54d-3a04-1d88-a7a7e20f1838" testName="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email&quot;,&quot;12345678&quot;,&quot;Por favor, insira um e-mail válido.&quot;)" computerName="LUIZ" duration="00:00:04.3992110" startTime="2021-03-27T19:27:53.0000000-03:00" endTime="2021-03-27T19:27:58.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6655ab47-cd87-428d-b6e2-682d3c636649">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1006.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0e936a7-7c5b-4e28-a604-856c32078f8a" testId="402ef116-6267-44cb-5756-4bace7d17b3d" testName="DeveCadastrarUsuarioComSucesso" computerName="LUIZ" duration="00:00:04.2634869" startTime="2021-03-27T19:28:02.0000000-03:00" endTime="2021-03-27T19:28:06.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f0e936a7-7c5b-4e28-a604-856c32078f8a">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1001.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="67837c67-eb10-414f-bdda-1922066798f0" testId="961a1ba8-da9a-bb0a-3a09-e28c4503e25e" testName="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email.com&quot;,&quot;123456&quot;,&quot;A senha deve conter ao menos 8 caracteres.&quot;)" computerName="LUIZ" duration="00:00:04.2268869" startTime="2021-03-27T19:27:58.0000000-03:00" endTime="2021-03-27T19:28:02.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67837c67-eb10-414f-bdda-1922066798f0">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1007.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="a715e8d8-5176-4acf-9667-3e092857a147" testId="3975e778-9ce2-c985-af72-a59ccd8aca3a" testName="DeveExibirTitulo" computerName="LUIZ" duration="00:00:05.0839730" startTime="2021-03-27T19:28:06.0000000-03:00" endTime="2021-03-27T19:28:11.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a715e8d8-5176-4acf-9667-3e092857a147">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1010.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="034a8de1-eaa4-4bf5-b875-11cd29231a4c" testId="213e3996-181f-4897-061e-da8083cd6e81" testName="DeveApresentarMensagemAlerta(&quot;&quot;,&quot;joao.silva@email.com&quot;,&quot;12345678&quot;,&quot;O campo Nome é obrigatório.&quot;)" computerName="LUIZ" duration="00:00:04.8156070" startTime="2021-03-27T19:27:35.0000000-03:00" endTime="2021-03-27T19:27:40.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="034a8de1-eaa4-4bf5-b875-11cd29231a4c">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1002.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="8c112861-5372-4afc-85b7-e3b63b0e82ec" testId="53709ff6-0f74-680a-4c0b-a5785d1dc6ef" testName="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email.com&quot;,&quot;&quot;,&quot;O campo Senha é obrigatório.&quot;)" computerName="LUIZ" duration="00:00:04.3781540" startTime="2021-03-27T19:27:44.0000000-03:00" endTime="2021-03-27T19:27:49.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8c112861-5372-4afc-85b7-e3b63b0e82ec">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1004.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="e3053dc3-d96c-4efe-aa24-112299fd7df4" testId="ca197eaf-b254-5dc2-25a0-ff8c2a568389" testName="DeveApresentarMensagemAlerta(&quot;Joao&quot;,&quot;joao.silva@email.com&quot;,&quot;12345678&quot;,&quot;Por favor, insira um nome completo.&quot;)" computerName="LUIZ" duration="00:00:04.4320090" startTime="2021-03-27T19:27:49.0000000-03:00" endTime="2021-03-27T19:27:53.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e3053dc3-d96c-4efe-aa24-112299fd7df4">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1005.png" />
+      </ResultFiles>
+    </UnitTestResult>
+    <UnitTestResult executionId="c3ce06af-0d70-4b91-a1c8-04d735cad8ec" testId="e40b5fc6-6170-2546-e785-5adbd0af9fb9" testName="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;&quot;,&quot;12345678&quot;,&quot;O campo E-mail é obrigatório.&quot;)" computerName="LUIZ" duration="00:00:04.4116660" startTime="2021-03-27T19:27:40.0000000-03:00" endTime="2021-03-27T19:27:44.0000000-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3ce06af-0d70-4b91-a1c8-04d735cad8ec">
+      <ResultFiles>
+        <ResultFile path="LUIZ\0-1003.png" />
+      </ResultFiles>
+    </UnitTestResult>
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;&quot;,&quot;12345678&quot;,&quot;O campo E-mail é obrigatório.&quot;)" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="e40b5fc6-6170-2546-e785-5adbd0af9fb9">
+      <Execution id="c3ce06af-0d70-4b91-a1c8-04d735cad8ec" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;&quot;,&quot;12345678&quot;,&quot;O campo E-mail é obrigatório.&quot;)" />
+    </UnitTest>
+    <UnitTest name="DeveApresentarMensagemAlerta(&quot;&quot;,&quot;joao.silva@email.com&quot;,&quot;12345678&quot;,&quot;O campo Nome é obrigatório.&quot;)" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="213e3996-181f-4897-061e-da8083cd6e81">
+      <Execution id="034a8de1-eaa4-4bf5-b875-11cd29231a4c" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveApresentarMensagemAlerta(&quot;&quot;,&quot;joao.silva@email.com&quot;,&quot;12345678&quot;,&quot;O campo Nome é obrigatório.&quot;)" />
+    </UnitTest>
+    <UnitTest name="DeveExibirTitulo" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="3975e778-9ce2-c985-af72-a59ccd8aca3a">
+      <Execution id="a715e8d8-5176-4acf-9667-3e092857a147" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.OnAirTest" name="DeveExibirTitulo" />
+    </UnitTest>
+    <UnitTest name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email.com&quot;,&quot;123456&quot;,&quot;A senha deve conter ao menos 8 caracteres.&quot;)" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="961a1ba8-da9a-bb0a-3a09-e28c4503e25e">
+      <Execution id="67837c67-eb10-414f-bdda-1922066798f0" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email.com&quot;,&quot;123456&quot;,&quot;A senha deve conter ao menos 8 caracteres.&quot;)" />
+    </UnitTest>
+    <UnitTest name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email&quot;,&quot;12345678&quot;,&quot;Por favor, insira um e-mail válido.&quot;)" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="c803363f-d54d-3a04-1d88-a7a7e20f1838">
+      <Execution id="6655ab47-cd87-428d-b6e2-682d3c636649" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email&quot;,&quot;12345678&quot;,&quot;Por favor, insira um e-mail válido.&quot;)" />
+    </UnitTest>
+    <UnitTest name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email.com&quot;,&quot;&quot;,&quot;O campo Senha é obrigatório.&quot;)" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="53709ff6-0f74-680a-4c0b-a5785d1dc6ef">
+      <Execution id="8c112861-5372-4afc-85b7-e3b63b0e82ec" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveApresentarMensagemAlerta(&quot;Joao da Silva&quot;,&quot;joao.silva@email.com&quot;,&quot;&quot;,&quot;O campo Senha é obrigatório.&quot;)" />
+    </UnitTest>
+    <UnitTest name="DeveApresentarMensagemAlerta(&quot;Joao&quot;,&quot;joao.silva@email.com&quot;,&quot;12345678&quot;,&quot;Por favor, insira um nome completo.&quot;)" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="ca197eaf-b254-5dc2-25a0-ff8c2a568389">
+      <Execution id="e3053dc3-d96c-4efe-aa24-112299fd7df4" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveApresentarMensagemAlerta(&quot;Joao&quot;,&quot;joao.silva@email.com&quot;,&quot;12345678&quot;,&quot;Por favor, insira um nome completo.&quot;)" />
+    </UnitTest>
+    <UnitTest name="DeveCadastrarUsuarioComSucesso" storage="c:\roboweek\stefanini\bin\debug\netcoreapp3.1\stefanini.dll" id="402ef116-6267-44cb-5756-4bace7d17b3d">
+      <Execution id="f0e936a7-7c5b-4e28-a604-856c32078f8a" />
+      <TestMethod codeBase="C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll" adapterTypeName="executor://nunit3testexecutor/" className="ProvaStefanini.Tests.LoginTests" name="DeveCadastrarUsuarioComSucesso" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="c803363f-d54d-3a04-1d88-a7a7e20f1838" executionId="6655ab47-cd87-428d-b6e2-682d3c636649" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="402ef116-6267-44cb-5756-4bace7d17b3d" executionId="f0e936a7-7c5b-4e28-a604-856c32078f8a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="961a1ba8-da9a-bb0a-3a09-e28c4503e25e" executionId="67837c67-eb10-414f-bdda-1922066798f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3975e778-9ce2-c985-af72-a59ccd8aca3a" executionId="a715e8d8-5176-4acf-9667-3e092857a147" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="213e3996-181f-4897-061e-da8083cd6e81" executionId="034a8de1-eaa4-4bf5-b875-11cd29231a4c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="53709ff6-0f74-680a-4c0b-a5785d1dc6ef" executionId="8c112861-5372-4afc-85b7-e3b63b0e82ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca197eaf-b254-5dc2-25a0-ff8c2a568389" executionId="e3053dc3-d96c-4efe-aa24-112299fd7df4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e40b5fc6-6170-2546-e785-5adbd0af9fb9" executionId="c3ce06af-0d70-4b91-a1c8-04d735cad8ec" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="8" executed="8" passed="8" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 3.15.1.0: Test execution started&#xD;
+Running all tests in C:\Roboweek\stefanini\bin\Debug\netcoreapp3.1\stefanini.dll&#xD;
+   NUnit3TestExecutor converted 8 of 8 NUnit test cases&#xD;
+NUnit Adapter 3.15.1.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

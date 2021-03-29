@@ -1,0 +1,48 @@
+UTilizado C# + COYPU
+
+No diretorio do repositorio informar:
+dotnet new nunit
+
+Baixar COYPU no site NUGET.org
+
+instalar no repositorio: dotnet add package COYPU --version 3.1.1
+
+*****
+
+Para executar todos os testes no terminal:
+dotnet testes
+
+Sequencia executa conforme ordem das classes.(Padrão do Nunit);
+
+Testes devem ser independentes.
+
+Categorizar testes para execução;
+
+Coloca umanotação de tesstes: depois da notação [TEST]
+
+[Category("Smoke")]
+
+na linha de comando colocar:
+
+dotnet test --filter TestCategory=Smoke
+
+****
+
+this - invoca um metodo dentro da propria classe.
+
+
+publica => public - Pode ser acessada por qlqr codigo, até mesmo por outro projeto.(boas práticas: public String nome;)
+privada => Private - Pode seer acessada somente pela classe que ela está.(boas práticas: private String _nome;)
+Protegida => protected - Pode ser acessada somente por ela ou por umfilho herdado. (boas práticas: protected String Nome;)
+
+modificadores de acesso.
+
+
+gravar relatorio formato TRX
+
+Dotnet test --filter TestCategory=Critical -l TRX -r ./reports
+
+
+
+
+
