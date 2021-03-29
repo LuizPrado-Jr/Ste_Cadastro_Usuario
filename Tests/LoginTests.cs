@@ -3,6 +3,8 @@
 using NUnit.Framework;
 using ProvaStefanini.pages;
 using ProvaStefanini.Common;
+using System.Threading;
+using System.Text.RegularExpressions;
 
 namespace ProvaStefanini.Tests
 {
@@ -28,6 +30,19 @@ namespace ProvaStefanini.Tests
 
         }
 
+        [Test]
+        [Category("Critical")]
+        public void DeveCadastrarUsuarioComSucessoDepoisExclui()
+        {
+            _cadastro.Dados("Jose da Silva", "jose.silva@email.com", "ABCDEFGH");
+
+            Assert.AreEqual("Jose da Silva", _cadastro.UsuarioCadastrado());
+            Assert.AreEqual("jose.silva@email.com", _cadastro.EmailCadastrado());
+
+            Browser.FindCss("#removeUser1").Click();
+
+        }
+
 
         [TestCase("", "joao.silva@email.com", "12345678", "O campo Nome é obrigatório.")]
         [TestCase("Joao da Silva", "", "12345678", "O campo E-mail é obrigatório.")]
@@ -41,28 +56,7 @@ namespace ProvaStefanini.Tests
             _cadastro.Dados(nome, email, senha);
             Assert.AreEqual(mensagemEsperada, _cadastro.MensagemErro());
         }
-        //  [Test]
-
-        // public void DeveCadastrarUsuarioComSucessoDepoisExcluir()
-        // {
-        //  browser.Visit("/teste/qa/");
-
-        //  browser.FillIn("name").With("Joao da Silva");
-        //  browser.FillIn("email").With("joao.silva@email.com");
-        //  browser.FillIn("password").With("12345678");
-        //  browser.ClickButton("register");
-
-        //  Thread.Sleep(5000);
-
-        //  var usuariocadastrado = browser.FindXPath("//*[contains(text(),'Joao da Silva')]");
-        //  var emailcadastrado = browser.FindXPath("//*[contains(text(),'joao.silva@email.com')]");
-
-        //  Assert.AreEqual("Joao da Silva",usuariocadastrado.Text);
-        //  Assert.AreEqual("joao.silva@email.com",emailcadastrado.Text);
-
-        // }
-
-
+              
 
     }
 
